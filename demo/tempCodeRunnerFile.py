@@ -1,3 +1,3 @@
-import bbox_visualizer as bbv
-
-import cv2
+img = img.resize((800, 533))
+# Check if the image was loaded successfully
+cv2.imshow("Image", img)

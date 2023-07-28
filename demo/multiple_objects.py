@@ -5,9 +5,8 @@ from PIL import Image
 
 import cv2
 
- 
-img = cv2.imread('source_multiple.jpg')
-annotation = json.load(open('source_multiple.json'))
+img = cv2.imread(r"C:\Users\vleen\Documents\GitHub\bbox-visualizer\images\source_multiple.jpg")
+annotation = json.load(open(r"C:\Users\vleen\Documents\GitHub\bbox-visualizer\images\source_multiple.json"))
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 
